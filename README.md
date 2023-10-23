@@ -2,7 +2,47 @@
 
 ## Overview
 
-This project focuses on classifying Electrocardiogram (ECG) signals using various signal processing techniques and deep learning models. The goal is to identify the underlying heart condition (e.g., arrhythmia, congestive heart failure, normal sinus rhythm) from the ECG data.
+- Load ECG signal data and preprocess it. This code was created based on an original MATLAB implementation.
+
+- Generate a Short Time Fourier Analysis (Spectrogram) and a Wavelet Analysis (Scalogram).
+
+- Create a dataset using PhysioNet ECG data and convert ECG signals into RGB images for training.
+
+- Design and train CNN models such as GoogLeNet, SqueezeNet, and AlexNet for ECG signal classification.
+
+- Evaluate the models using validation data and compare their performance.
+
+- Classify a given ECG signal using the trained models.
+
+## Usage
+
+1. Ensure you have the necessary Python libraries installed, including NumPy, SciPy, Matplotlib, scikit-learn, Keras, and TensorFlow.
+
+2. Prepare your ECG signal data and PhysioNet dataset (ECGData.mat).
+
+3. Modify the code as needed for your specific dataset and requirements, especially for CNN design and training options.
+
+4. Run the Python script to perform the tasks mentioned in the Overview section.
+
+5. Review the results, including the accuracy of the trained models and their performance in classifying ECG signals.
+
+## Directory Structure
+
+- `data/`: Store your ECG signal data and PhysioNet dataset here.
+
+- `ECGTypesWavelet/` and `ECGTypesSTFT/`: Directories for storing generated RGB images of ECG signals.
+
+- `models/`: Store trained model files here (e.g., GoogLeNetModel2.h5, SqueezeNetModel2.h5, AlexNetModel2.h5).
+
+## Notes
+
+- This Python code was created based on an original MATLAB code for ECG signal classification.
+
+- The code is written in Python and may require adaptations for specific datasets and preferences.
+
+- Ensure you have the required image data in 'ECGTypesWavelet' or 'ECGTypesSTFT' for model training.
+
+- Update the model architecture, hyperparameters, and training options according to your dataset and needs.
 
 ## Prerequisites
 
@@ -32,7 +72,7 @@ Before running the project, make sure you have the following dependencies instal
 
 4. Run the Python code:
 
-    - The Python code (`ecg_classification.py`) contains the signal processing, data preprocessing, deep learning model training, and evaluation steps.
+    - The Python code (`ECG_Project.py`) contains the signal processing, data preprocessing, deep learning model training, and evaluation steps.
 
     - The code is well-commented to help you understand each section.
 
