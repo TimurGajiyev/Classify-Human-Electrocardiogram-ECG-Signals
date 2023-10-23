@@ -17,7 +17,7 @@ Before running the project, make sure you have the following dependencies instal
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/ecg-classification-project.git
+    git clone https://github.com/TimurGajiyev/Classify_Human_Electrocardiogram_ECG_Signals/
     ```
 
 2. Install the necessary Python libraries:
@@ -48,13 +48,7 @@ Before running the project, make sure you have the following dependencies instal
 
 After running the code, you will get accuracy metrics and confusion matrices for the trained deep learning models.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [OpenAI](https://openai.com) for assistance with this project.
+## Acknowledgment
 
 Feel free to customize this README with additional information, credits, and usage instructions as needed for your specific project.
 
