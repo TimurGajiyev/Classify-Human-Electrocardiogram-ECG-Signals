@@ -85,7 +85,6 @@ Before running the project, make sure you have the following dependencies instal
 - `ECGTypesSTFT`: Directory for storing spectrogram images.
 
 ## Results
-
 After running the code, you will get accuracy metrics and confusion matrices for the trained deep learning models.
 
 ## Acknowledgment
